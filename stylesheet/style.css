@@ -1,0 +1,500 @@
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background-image: url(../images/hill.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  /* background-color:cadetblue; */
+  height: 100px;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  margin-left: 50px;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  float: left;
+}
+
+.nav-links li{
+  margin: 5px;
+}
+
+.nav-links li a{
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+  color: #0151c1;
+}
+
+.nav-links li a:hover{
+  color: #ff416c;
+  /* background-color: green; */
+}
+
+.header-content{
+  font-family: 'Montserrat', sans-serif;
+  color:whitesmoke;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  top: 50%; 
+}
+
+.nav-sub-links{
+  display: none;
+}
+
+.nav-sub-link-hover:hover .nav-sub-links{
+  display: initial;
+}
+
+.nav-sub-links li{
+  list-style-type: none;
+}
+
+.nav-links li ul {
+  position: absolute;
+  top: 11%;
+  right: 14.2%;
+  /* color: red; */
+}
+
+.line{
+  width: 150px;
+  height: 4px;
+  background-color: #fc036b;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.header .navbar ul li:hover ul{
+  display: initial;
+} 
+#menu-bar{
+  display: none;
+}
+
+.header label{
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+
+/* *****************     View section     ****** */
+
+.explore-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+.about-explore {
+  margin: 15px 0;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.explore-info{
+  width: 60%;
+}
+
+.h5-span{
+  font-size: 16px;
+  border-bottom: 2px solid #ff3c78;
+  padding-bottom: 5px;
+}
+
+h5, .heading-five-text{
+  display: inline-block;
+  margin: 25px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading-five-text{
+  font-size: 28px;
+}
+
+.discover{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.discover-title{
+  color: #303133;
+  text-align: center;
+  border-bottom: 2px solid #ff3c78;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.images-section{
+  background-color: #E9F8F9;
+}
+
+.section-heading-image{
+  margin: 0 50px 50px;
+}
+
+.view-span{
+  margin-left: 10px;
+}
+
+.image-heading{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.conatiner-content{
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content-info{
+  margin: 10px 0;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.container-img{
+  width: 440px;
+  height: 300px;
+}
+
+.container-text{
+  display: inline-block;
+  width: 440px;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.explore-li-links a{
+  color: #0151c1;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.explore-li-links a:hover{
+  color: #ff3c78;
+}
+
+.explore-li-links {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+/* ***************      Travel Section    *********/
+
+.travel-section{
+  display: contents;
+  text-align: center;
+  justify-content: center;
+  height: 1000px;
+  width: 900px;;
+}
+
+.heading-travel {
+  color: #061e5c;
+  margin-top: 40px;
+  line-height: 2;
+}
+
+.big-heading-travel{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.fa-solid{
+  font-family: none;
+}
+
+.describe-travel{
+  color: #888;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.active {
+  color: #ff416c;
+  border-bottom: 1px solid #ff416c;
+}
+
+.travel-links {
+  margin-top: 30px;
+}
+
+.travel-link{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #061e5c;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 20px;
+  letter-spacing: 0.5px;
+}
+
+.travel-link:hover{
+  color: #ff416c;
+  border-bottom: 1px solid;
+  transition: 0.1s;
+}
+
+.travel-img-div{
+  display: inline-block;
+  padding: 1em 0;
+  width: 30%;
+}
+.travel-img {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* **************         Discover Images     ******   */
+
+.discover-images-container{
+  margin: 100px 0;
+}
+
+.travel-img .explore-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  }
+
+.travel-img:hover .explore-overlay{
+  opacity: 1;
+}
+
+.explore-images{
+  width: 100%;
+  height: 300px;
+}
+
+.explore-details {
+  position: absolute;
+  text-align: center;
+  /* padding-left: 1em; */
+  /* padding-right: 1em; */
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.travel-img:hover .explore-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.explore-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+/* ********************   footer   ********** */
+
+footer{
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+  height: 300px;
+  background: #b4e4ffb5;
+  padding: 110px 0px;
+  text-align: center;
+}
+
+.footer .row{
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: #061e5c;
+  font-size: 0.8em;
+}
+
+.footer .row a{
+  text-decoration: none;
+  color: #061e5c;
+  transition: 0.5s;
+}
+
+.footer .row a:hover{
+  color: #ff3c78;
+}
+
+.footer .row ul{
+  width: 100%;
+}
+
+.footer .row ul li{
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i{
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+/* ------------  Mobile Device   ------------ */
+
+@media only screen and (max-width:991px) {
+  .navbar{
+    padding: 0;
+  }
+
+  .logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .header{
+    background: whitesmoke;
+    height: 100vh;
+  }
+
+  nav .nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-links li{
+    margin: 5px auto;
+    position: relative;
+    top: 50%;
+  }
+
+  .header label{
+    display: initial;
+  }
+
+  nav ul li ul{
+    position: relative;
+    width: 100%;
+  }
+
+  #menu-bar:checked ~ .navbar{
+    display: initial;
+  }
+
+  .travel-img-div{
+    width: 45%;
+  }
+
+  .header-content{
+    top: 10%;
+    color: #061e5c;
+    display: none;
+  }
+
+  .explore-info{
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .discover{
+    margin: 70px 0;
+  }
+
+  .explore-li-links{
+    display: inline-block;
+  }
+
+  .explore-content{
+    display: contents;
+  }
+
+  .big-heading-travel{
+    font-size: 24px;
+  }
+
+  .describe-travel{
+    font-size: 12px;
+  }
+
+  .travel-link{
+    display: inline-block;
+  }
+
+}
+
+/* ------------   Mobile  800px   --------- */
+
+@media only screen and (max-width:800px) {
+
+  .travel-img-div{
+    width: 90%;
+  }
+
+  .explore-info{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  hr{
+    display: none;
+  }
+
+  .heading-five-text {
+    font-size: 24px;
+  }
+}
